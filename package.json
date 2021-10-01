@@ -1,0 +1,16 @@
+{
+  "name": "stats_preview_card_comp",
+  "version": "1.0.0",
+  "description": "This is the Stats Preview Card Component challenge from Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel M",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
