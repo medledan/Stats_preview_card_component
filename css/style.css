@@ -1,18 +1,48 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    /* Primary */
-    --very-dark-blue_mainBackground: hsl(233, 47%, 7%);
-    --dark-desaturated-blue_cardBackground: hsl(244, 38% 16%);
-    --soft-violet_accent: hsl(277, 64%, 61%);
-    /* Neatral */
-    --white_mainHeading_stats: hsl(0, 0%, 100%);
-    --slightly-transparent-white_mainParagraph: hsla(0, 0%, 100%, 0.75);
-    --slightly-transparent-white_statHeadings: hsla(0, 0%, 100%, 0.6);   
+  /* Primary */
+  --very-dark-blue_mainBackground: hsl(233, 47%, 7%);
+  --dark-desaturated-blue_cardBackground: hsl(291, 73%, 29%);
+  --soft-violet_accent: hsl(277, 64%, 61%);
+  /* Neatral */
+  --white_mainHeading_stats: hsl(0, 0%, 100%);
+  --slightly-transparent-white_mainParagraph: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white_statHeadings: hsla(0, 0%, 100%, 0.6);
 }
 
-body{
-    font-size: 0.938rem;
+body {
+  font-size: 0.938rem;
+  background-color: black;
+}
+
+h1,
+h4 {
+  color: var(--white_mainHeading_stats);
+}
+
+span {
+  color: var(--soft-violet_accent);
+}
+
+small {
+  color: var(--slightly-transparent-white_statHeadings);
+}
+
+.cardcustom {
+  background-color: var(--very-dark-blue_mainBackground);
+}
+
+.mainParagraph {
+  color: var(--slightly-transparent-white_mainParagraph);
+}
+
+.imgcontainer {
+  background-color: var(--dark-desaturated-blue_cardBackground);  
+}
+
+.cardImg {
+  opacity: 0.4;
 }
