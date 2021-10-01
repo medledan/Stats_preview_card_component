@@ -18,9 +18,19 @@ body {
   background-color: black;
 }
 
+h1 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 400;
+  margin: 0;
+}
+
 h1,
 h4 {
   color: var(--white_mainHeading_stats);
+  font-family: "Inter", sans-serif;
 }
 
 span {
@@ -31,6 +41,11 @@ small {
   color: var(--slightly-transparent-white_statHeadings);
 }
 
+img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .cardcustom {
   background-color: var(--very-dark-blue_mainBackground);
 }
@@ -39,10 +54,21 @@ small {
   color: var(--slightly-transparent-white_mainParagraph);
 }
 
+.mainParagraph,
+small {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
 .imgcontainer {
-  background-color: var(--dark-desaturated-blue_cardBackground);  
+  background-color: var(--dark-desaturated-blue_cardBackground);
+  padding: 0;
 }
 
 .cardImg {
   opacity: 0.4;
+}
+
+.customPadding {
+  padding: 2.5rem 2.5rem;
 }
